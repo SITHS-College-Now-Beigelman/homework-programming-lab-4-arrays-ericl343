@@ -1,0 +1,28 @@
+//Eric Lin
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main () {
+
+cout << "a. " << abs(-18) << endl;
+cout << "b. " << sqrt(38.44)* pow(2.4, 2) / fabs(-3.2)  << endl;
+cout << "i. " <<  floor(27.37) << endl;
+cout << "c. " <<  pow(4, 2.0) << endl;
+cout << "d. " <<  pow(8.4, 3.5) << endl;
+cout << "e. " <<  sqrt(7.84)  << endl;
+cout << "f. " <<  floor(12.45) << endl;
+
+return 0;
+}
+
+/*
+a. 18
+b. 11.16
+i. 27
+c. 16
+d. 1717.82
+e. 2.8
+f. 12
+*/
