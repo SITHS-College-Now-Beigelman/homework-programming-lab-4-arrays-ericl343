@@ -1,6 +1,6 @@
 //Eric Lin
 //Homework #4
-//November 12th
+//November 12th, 2024
 
 #include <iostream>
 #include <string>
@@ -20,7 +20,7 @@ void filterEvens(int myArray[], int size) {
 }
 
 //Exercise #2 Function
-void carSalesAnalysis(const int cars[], int size) {
+void carSaleAnalysis(const int cars[], int size) {
     //Set the starting value to 0
     int totalCars = 0;
     int maxCars = cars[0];
@@ -69,7 +69,8 @@ int main() {
     cout << "\nExercise #2: Car Sales Analysis\n";
     int cars[10] = {7, 3, 6, 0, 14, 8, 1, 2, 9, 8};
     //Analyze car sales data
-    carSalesAnalysis(cars, 10); 
+    carSaleAnalysis(cars, 10); 
+
 //Exercise #4
     cout << "\nExercise #4: DNA to RNA Transcription\n";
     string dnaSeq;
